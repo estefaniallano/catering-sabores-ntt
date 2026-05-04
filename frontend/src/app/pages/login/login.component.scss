@@ -1,0 +1,14 @@
+:host {
+  display: block;
+}
+
+.card {
+  border: 0;
+  border-radius: 1rem;
+}
+
+@media (max-width: 576px) {
+  .card-body {
+    padding: 1.25rem !important;
+  }
+}

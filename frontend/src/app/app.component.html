@@ -1,0 +1,46 @@
+<nav class="navbar navbar-expand-lg bg-white border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold" routerLink="/login">Sabores de Casa</a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      aria-controls="mainNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+      (click)="isNavOpen = !isNavOpen"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" [class.show]="isNavOpen" id="mainNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/login" routerLinkActive="active"
+            >Login</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            routerLink="/comercial/eventos"
+            routerLinkActive="active"
+            >Comercial</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            routerLink="/cocina/dashboard"
+            routerLinkActive="active"
+            >Cocina</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main class="py-4">
+  <router-outlet />
+</main>

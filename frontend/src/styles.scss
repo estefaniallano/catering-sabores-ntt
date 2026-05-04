@@ -1,0 +1,17 @@
+/* Global styles */
+@import "bootstrap/scss/bootstrap";
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #f8f9fa;
+}
+
+/* Small helper for page titles */
+.page-title {
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}

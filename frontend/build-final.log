@@ -1,0 +1,41 @@
+[33m❯[39m Building...
+[32m✔[39m Building...
+[1mInitial chunk files[22m  [2m | [22m[1mNames[22m        [2m | [22m [1mRaw size[22m[2m | [22m[1mEstimated transfer size[22m
+[32mmain-K5AFWURL.js[39m     [2m | [22m[2mmain[22m         [2m | [22m[36m244.56 kB[39m[2m | [22m               [36m65.65 kB[39m
+[32mstyles-5JYHTHRL.css[39m  [2m | [22m[2mstyles[22m       [2m | [22m[36m226.69 kB[39m[2m | [22m               [36m22.84 kB[39m
+[32mpolyfills-5CFQRCPP.js[39m[2m | [22m[2mpolyfills[22m    [2m | [22m [36m34.59 kB[39m[2m | [22m               [36m11.33 kB[39m
+
+[1m [22m                    [2m | [22m[1mInitial total[22m[2m | [22m[1m[93m505.83 kB[39m[22m[2m | [22m               [1m99.83 kB[22m
+
+Application bundle generation complete. [36.013 seconds]
+
+[1m[33m[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mDeprecation[0m [1m[35m[plugin angular-sass][0m
+
+    src/styles.scss:2:8:
+[37m      2 │ @import [32m[37m"bootstrap/scss/bootstrap";
+        ╵         [32m^[0m
+
+
+  Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+  
+  More info and automated migrator: [4mhttps://sass-lang.com/d/import[0m
+
+  The plugin "angular-sass" was triggered by this import
+
+    angular:styles/global:styles:1:8:
+[37m      1 │ @import [32m'src/styles.scss'[37m;
+        ╵         [32m~~~~~~~~~~~~~~~~~[0m
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mbundle initial exceeded maximum budget. Budget 500.00 kB was not met by 5.83 kB with a total of 505.83 kB.[0m
+
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1m4 rules skipped due to selector errors:
+  .form-floating>~label -> Did not expect successive traversals.
+  .form-floating>~label -> Did not expect successive traversals.
+  .btn-group>+.btn -> Did not expect successive traversals.
+  .btn-group>+.btn -> Did not expect successive traversals.[0m
+
+[39m[22m
+Output location: C:\Users\ellanper\OneDrive - NTT DATA EMEAL\Escritorio\Formación\proyecto-sabores\frontend\dist\frontend
+
