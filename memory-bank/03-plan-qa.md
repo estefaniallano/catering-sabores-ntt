@@ -1,5 +1,3 @@
-# 03-plan-qa.md
-
 ## Objetivo del plan QA
 
 Definir la estrategia de calidad y validación del sistema **Catering Sabores de Casa** para asegurar:

@@ -1,5 +1,3 @@
-# 02-stack-tecnico.md
-
 ## Visión general técnica
 
 La solución propuesta para **Catering Sabores de Casa** es una plataforma web interna basada en una arquitectura de **tres capas**:

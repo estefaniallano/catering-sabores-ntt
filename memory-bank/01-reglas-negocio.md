@@ -1,5 +1,3 @@
-# 01-reglas-negocio.md
-
 ## Objetivo del sistema
 
 Sistema web interno para **Catering Sabores de Casa** orientado a centralizar la planificación operativa de eventos de catering, eliminando la gestión dispersa en Excel, correos y mensajería informal.
