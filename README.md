@@ -13,7 +13,7 @@ Plataforma web B2B de uso interno diseñada para centralizar la gestión operati
 - /frontend: Contiene la interfaz de usuario (SPA) y las vistas de la demo (Login, Comercial, Cocina).
 - /backend: Contiene la API RESTful, los controladores, servicios y las pruebas unitarias.
 - /database: Contiene el script SQL para inicializar las tablas.
-- /_contexto_proyecto: Archivos Markdown con las reglas de negocio, el plan de QA y el stack técnico.
+- /memory-bank: Archivos Markdown con las reglas de negocio, el plan de QA y el stack técnico.
 - /evidencias: Capturas de pantalla que demuestran el funcionamiento de la interfaz y la ejecución exitosa de los tests unitarios.
 
 ## Instrucciones de Instalación y Ejecución
